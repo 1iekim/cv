@@ -27,7 +27,7 @@ function setupMobileNavbar() {
         .addEventListener(CLICK_EVENT, toggleNavigationOnMobile);
 
     document
-        .querySelectorAll('.dropdown__item')
+        .querySelectorAll('.navigation__item')
         .forEach(i => i.addEventListener(CLICK_EVENT, toggleNavigationOnMobile));
 }
 
